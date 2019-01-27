@@ -1,0 +1,342 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+img{
+  min-width: 100%;
+}
+.container{
+  width: 100%;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu {
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+.description {
+  margin-left: 9px;
+}
+.name {
+  display: block;
+  font-size: 16px;
+  font-weight: 800;
+}
+.menu-logo {
+  display: flex;
+  align-items: center;
+}
+.avatar {
+  width: 57px;
+  height: 57px;
+  background: url("https://pp.userapi.com/c633726/v633726767/37c04/vkj7VE1c1Zs.jpg");
+  background-size: 120%;
+  border-radius: 50%;
+}
+.menu-list {
+  display: flex;
+  align-items: center;
+}
+.menu-list a {
+  text-decoration: none;
+  color: #2b2a2c;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-right: 34px;
+  display: inline-block;
+  line-height: 1;
+  position: relative;
+  cursor: pointer;
+}
+.menu-list a:after {
+  background-color: #2b2a2c;
+  display: block;
+  content: "";
+  height: 2px;
+  width: 0%;
+  left: 50%;
+  position: absolute;
+  transition: width .3s ease-in-out;
+  transform: translateX(-50%);
+}
+.menu-list a:hover:after,
+.menu-list a:focus:after {
+  width: 100%;
+}
+.menu-button {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 800;
+  background-color: transparent;
+  border-radius: 19px;
+  border: 2px solid #2b2a2c;
+  padding: 13px 22px;
+  position: relative;
+  cursor: pointer;
+}
+.menu-button:after {
+  background-color: #2b2a2c;
+  display: block;
+  content: "";
+  height: 2px;
+  width: 0%;
+  left: 50%;
+  position: relative;
+  transition: width .3s ease-in-out;
+  transform: translateX(-50%);
+}
+.menu-button:hover:after,
+.menu-button:focus:after {
+  width: 100%;
+}
+.hero {
+  padding-top: 112px;
+  padding-bottom: 112px;
+  background: url("https://a.radikal.ru/a33/1901/09/1266d95f4568.png") no-repeat center bottom;
+}
+.hero-subtitle{
+  font-size: 32px;
+}
+.hero-title{
+  font-size: 45px;
+  font-weight: 800;
+  margin-top: 1px;
+  margin-bottom: 5px;
+}
+.hero-discription{
+  font-size: 18px;
+  color: #6a696b;
+}
+.hero-social{
+  margin-top: 26px;
+}
+.social{
+  display: inline-block;
+  width: 41px;
+  height: 41px;
+  margin-right: 12px;
+  color: #fff;
+  text-align: center;
+  line-height: 41px;
+}
+.be-bg{
+  background-color: #1869ff;
+}
+.fc-bg{
+  background-color: #3a5898;
+}
+.in-bg{
+  background-color: #13578a;
+}
+.vk-bg{
+  background-color: #56acef;
+}
+.hero-BTN{
+  margin-top: 40px;
+}
+.BTN{
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration: none;
+  background-color: #2b2a2c;
+  border-radius: 50px;
+  padding: 20px 34px;
+  display: inline-block;
+}
+.BTN-primary{
+  color: #fff;
+  margin-right: 17px;
+  margin-bottom: 10px;
+}
+.BTN-o{
+  background-color: transparent;
+  border: 1px solid #6a696b;
+  color: #6a696b;
+}
+.projects{
+  padding: 97px 0;
+}
+.cards{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card{
+  overflow: hidden;
+  width: 370px;
+  min-height: 370px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  margin-bottom: 50px;
+}
+.cat{
+  height: 300px;
+}
+.dog{
+  height: 300px;
+  width: 300px;
+}
+.animals{
+  height: 300px;
+  width: 300px;
+}
+.shoes{
+  height: 300px;
+  width: 300px;
+}
+.project_cardIMG{
+  height: 300px;
+  background-repeat: no-repeat;
+}
+.landing_page{
+  background: url("https://blog.icondesignlab.com/wp-content/uploads/2017/05/1D8ABB6B13ED6FC7CB23FB7416AA7864FB9F14B490B453C3B2-pimgpsh_fullsize_distr.png") center;
+  background-size: 100%;
+}
+.project_category{
+  display: block;
+  font-size: 12px;
+  color: #2b2a2c;
+}
+.card_info{
+  padding-top: 19px;
+  padding-bottom: 15px;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+.project_title{
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+}
+.footer{
+  background-color: #2b2a2c;
+  padding: 20px 0;
+  color: #8d8d8e;
+}
+.footer a{
+  color: #8d8d8e;
+   text-decoration: none;
+}
+.footer-info{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-text{
+  display: flex;
+  align-items: center;
+}
+.copyright{
+  padding-right: 16px;
+  margin-right: 16px;
+  margin-left: 50px;
+  border-right: 1px solid #413f41;
+  font-size: 14px;
+}
+.footer_social{
+  font-size: 20px;
+  margin-right: 13px;
+}
+.footer-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-menu a{
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 30px;
+  color: #8d8d8e;
+  background-color: #2b2a2c;
+  font-size: 14px;
+  position: relative;
+  cursor: pointer;
+}
+.footer-menu a:after {
+  background-color: #8d8d8e;
+  display: block;
+  content: "";
+  height: 2px;
+  width: 0%;
+  left: 50%;
+  position: relative;
+  transition: width .3s ease-in-out;
+  transform: translateX(-50%);
+}
+.footer-menu a:hover:after,
+.footer-menu a:focus:after {
+  width: 100%;
+}
+.footer-button{
+  color: #8d8d8e;
+  margin-right: 50px;
+  background-color: #2b2a2c;
+  font-size: 14px;
+  border-radius: 19px;
+  border: 1px solid #8d8d8e;
+  padding: 6px 24px;
+  position: relative;
+  cursor: pointer;
+}
+.footer-button:after {
+  background-color: #8d8d8e;
+  display: block;
+  content: "";
+  height: 2px;
+  width: 0%;
+  left: 50%;
+  position: relative;
+  transition: width .3s ease-in-out;
+  transform: translateX(-50%);
+}
+.footer-button:hover:after,
+.footer-button:focus:after {
+  width: 100%;
+}
+
+@media (max-width:1200px) {
+  .container{
+    width: 970px;
+  }
+  .card{
+    width: 48%;
+    min-height: 370px;
+  }  
+}
+
+@media (max-width:990px) {
+  .container{
+    width: 750px;
+  }
+  .card{
+    width: 48%;
+  }  
+}
+
+@media (max-width:770px) {
+  .discription-small{
+    font-size: 8px;
+  }
+  .menu-list{
+    display: none;
+  }
+  .hero{
+    padding-bottom: 550px;
+    padding-top: 20px;
+  }
+  .cards{
+    margin-top: -70px;
+  }
+  .container{
+    width: 95%;
+  }
+  .card{
+    width: 95%;
+    margin: 30px auto;
+  }  
+}
